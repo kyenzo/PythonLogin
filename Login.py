@@ -11,10 +11,10 @@ def user_choice(arg):
 
 
 def login(auth):
-    username = input("Please type in your username: ")
+    username = input("Please type in your username! ")
     if username in users.keys():
         print("username match")
-    password = input("Please type in your password: ")
+    password = input("Please type in your password! ")
     if password == users[username]:
         auth = randint(1000, 9999)
         print("success login")
